@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #40DFCF;
+    font: normal 10pt Arial;
+}
+header{
+    background-color: black;
+    color: white;
+}
+header>h1{
+    text-align: center;
+
+}
+#clicks{
+    font-weight: bold;
+    font-size: 5em;
+    text-align: center;
+    border-radius: 5px 5px black
+    ;
+}
+div#caixa{
+    background-color: black;
+    height: 50px;
+    border: 50px solid black;
+}
+
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+img{
+    background-position: center center;
+    border-style: double;
+    padding: 20px;
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+}
