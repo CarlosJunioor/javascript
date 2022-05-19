@@ -15,5 +15,4 @@ document.getElementById("id2").innerHTML = "Your are ,"+ age + " old."
 document.getElementById("id3").innerHTML = "And you are ,"+ nationality
 document.getElementById("id4").innerHTML = "And your sex is,"+ sex
 document.getElementById("id5").innerHTML = " University accepted was "+ student
-
 */

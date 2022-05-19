@@ -9,11 +9,14 @@
         body{
            font: normal 20pt Arial;
            background-color: rgba(0, 0, 255, 0.377);
+           color: black;
         }
     </style>
 </head>
-<body>
-    <h1 id="id0">hello, world</h1>
+<body id="id0">
+    <h1>hello, world</h1>
+
+
 
     <p id="id1"></p>
     <p id="id2"></p>
@@ -21,7 +24,10 @@
     <p id="id4"></p>
     <p id="id5"></p>
 
-    <button type="button" onclick="document.getElementById('id0').style.color ='red'">Click me!</button>
+    <button type="button" onclick="document.getElementById('id0').style.backgroundColor= 'black'">Change background-color!</button>
+
+    <button type="button" onclick="document.getElementById('id0').style.color= 'white'">Change color</button>
+
 
     <script src="code.js"></script>    
 </body>
