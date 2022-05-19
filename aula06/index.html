@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Txuva Game</title>
+</head>
+<body>
+    <h1>Contador</h1>
+    <input type="button" value="add" onclick="somar()">
+
+    <p>Clicks: <a id="somar">0</a></p>
+
+
+    <script>
+        let begin = 0
+
+        function somar(){   
+            begin += 1
+            document.getElementById('somar').innerHTML = begin
+        }
+
+
+    </script>
+</body>
+</html>
