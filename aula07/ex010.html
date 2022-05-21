@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket system</title>
+</head>
+<body>
+    <h1>Ticket System</h1>
+
+    <input type="number" name="txtvel" id="txtvel">
+
+    <input type="button" value="Check" onclick="checkvel()">
+
+    <div id="res">
+
+
+    </div>
+
+    <script>
+        function checkvel(){
+            let txtv = document.getElementById('txtvel')
+            let vel = Number(txtv.value)
+            let res = window.document.getElementById('res')
+            res.innerHTML = `Sua velocidade atual é de ${vel} `
+
+            if (vel > 50){
+                res.innerHTML = `Você foi multado por excesso de velocidade`
+            } else{
+                res.innerHTML = `Você se encontra na velocidade normal`
+            }
+        }
+    </script>
+</body>
+</html>
