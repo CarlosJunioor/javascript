@@ -8,22 +8,15 @@
 </head>
 <body>
     <h1>Ticket System</h1>
-
     <input type="number" name="txtvel" id="txtvel">
-
     <input type="button" value="Check" onclick="checkvel()">
-
     <div id="res">
-
-
     </div>
-
     <script>
         function checkvel(){
             let txtv = document.getElementById('txtvel')
             let vel = Number(txtv.value)
             let res = window.document.getElementById('res')
-
             if (vel > 50){
                 res.innerHTML = `You have been sent a TICKET! KM/h = <strong>${vel}</strong>`
             } else{
