@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Nationality</title>
+</head>
+<body>
+    <h1>Brazillian Checker using forms</h1>
+
+    <!-- used select forms to enter the nationality
+        <input type="text" name="txtnat" id="txtnat"> -->
+
+    <select id="txtnat" name="nationality" form="natform">
+        <option value="Brazil">Brazil</option>
+        <option value="Portugal">Portugal</option>
+        <option value="India">India</option>
+        <option value="France">France</option>
+      </select>
+
+    <input type="button" value="Check" onclick="find()">
+
+    <div id="res"></div>
+
+    <script>
+       function find(){
+
+        let nation = document.getElementById('txtnat')
+        let nat = String(nation.value)
+        let res = document.getElementById('res')
+           if (nat == 'Brazil'){
+            res.innerHTML = '<p>You are <strong>BRAZILIAN</strong>!</p>'
+           } else {
+               res.innerHTML = '<p>You are <strong>NOT</strong> a brazilian</p>'
+           }
+        }
+
+
+    </script>
+</body>
+</html>

@@ -23,13 +23,13 @@
             let txtv = document.getElementById('txtvel')
             let vel = Number(txtv.value)
             let res = window.document.getElementById('res')
-            res.innerHTML = `Sua velocidade atual é de ${vel} `
 
             if (vel > 50){
-                res.innerHTML = `Você foi multado por excesso de velocidade`
+                res.innerHTML = `You have been sent a TICKET! KM/h = <strong>${vel}</strong>`
             } else{
-                res.innerHTML = `Você se encontra na velocidade normal`
+                res.innerHTML = `You are in the currenty velocity. KM/h = <strong>${vel}</strong>`
             }
+            res.innerHTML += `<p>Always drive with seatbelt on!</p>`
         }
     </script>
 </body>
