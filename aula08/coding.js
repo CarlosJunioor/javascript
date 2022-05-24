@@ -1,8 +1,28 @@
-let ano = document.getElementById('nasci')
-let sex = document.getElementById('input[name="sex"]:checked').value
-let res = document.getElementById('res')
+
 
 function verificar(){
-    res.innerHTML= "test 123"
 
+    let data = new Date()
+    let anoo = data.getFullYear()
+
+
+    let fano = document.getElementById('nasci')
+    let res = document.getElementById('res')
+    
+    if (fano.value.lenght == 0 || fano.value > anoo){
+        window.alert('[ERROR] Digite os dados novamente')
+    } else {
+         let  fsex = document.getElementsByName('sex')
+         let idade = anoo - Number(fano.value)
+         let gen = ''
+         if (fsex[0].checked) {
+             gen = 'Homem'
+         } else {
+             gen = 'Mulher'
+         }
+         res.innerHTML = `Detectamos ${gen} e ${idade}`
+
+    }
+
+  
 }
