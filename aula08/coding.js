@@ -1,19 +1,14 @@
-
-
 function verificar(){
 
     let data = new Date()
     let anoo = data.getFullYear()
 
     var genero = document.querySelector('input[name="sex"]:checked').value
-
     let fano = document.getElementById('nasci')
-    let res = document.getElementById('res')
 
+    let res = document.getElementById('res')
     let img = document.createElement("img")
    
-
-
     if (fano.value.lenght == 0 || fano.value > anoo){
         window.alert('[ERROR] Digite os dados novamente')
     } else {
@@ -33,8 +28,6 @@ function verificar(){
          } else {
                 img.src = "img/foto-idoso-m.png"
          }
-
-             
             } else if (idade <=10){
                 img.src = "img/foto-bebe-f.png"
         }else if (idade > 10 && idade <=21) {
@@ -45,10 +38,6 @@ function verificar(){
         } else {
                 img.src = "img/foto-idoso-f.png"
         }
-            
-         
-         
          res.appendChild(img)
     } 
-  
 }
