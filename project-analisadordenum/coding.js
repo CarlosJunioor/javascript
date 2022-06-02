@@ -4,7 +4,7 @@ let res = document.getElementById("res")
 let valores = []
 
 function soma (){
-    
+    +numdhfghfgghjyutyu
 }
 function adicionar(){
     
