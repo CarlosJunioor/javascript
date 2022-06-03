@@ -3,8 +3,11 @@ let lista = document.getElementById("flista")
 let res = document.getElementById("res")
 let valores = []
 
+function add (){
+    
+}
 function soma (){
-    +numdhfghfgghjyutyu
+   
 }
 function adicionar(){
     
