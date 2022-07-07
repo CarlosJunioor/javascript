@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+:root {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+ 
+    text-align: center;
+}
+
+
+
+img{
+    max-width: 300px;
+}
+
+table {
+    margin: auto;
+    width: 50%;
+    border-collapse: collapse;
+    box-shadow: 0 0 2px;
+    
+  }
+  
+  td, th {
+    border: 1px solid black;
+
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
