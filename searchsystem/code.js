@@ -11,9 +11,9 @@ document.getElementById("showTable").innerHTML = showArray(carFile)
     let row = table.insertRow(0)
     let cell1 = row.insertCell(0)
     let cell2 = row.insertCell(1)
-    cell1.innerHTML = 'titulo'
-    cell2.innerHTML = 'titulo2'
-    
+    cell1.innerHTML = 'FILES NAME'
+    cell2.innerHTML = 'DOWNLOAD LINK'
+
      for (let i = 0; i < carFile.length; i++){
 
         row = table.insertRow(-1)

@@ -17,6 +17,25 @@ img{
     max-width: 300px;
 }
 
+form {
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#myInput {
+    margin: auto;
+    text-align: center;
+    display: block;
+    background-repeat: no-repeat;
+    width: 50%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+
 table {
     margin: auto;
     width: 50%;
