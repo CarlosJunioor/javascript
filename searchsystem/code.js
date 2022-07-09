@@ -34,3 +34,8 @@ function getData(){
    carFile.push(carData)
     return getData
 }
+
+function darkMode (){
+   var element = document.body
+   element.classList.toggle("dark-mode")
+}
