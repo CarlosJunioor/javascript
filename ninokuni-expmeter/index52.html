@@ -13,14 +13,17 @@
 
     <div class="wrapper">
         <div class="task-input">
-          <input type="text" placeholder="Add">
-          <button onclick=""> enviar</button>
+          <input type="text" name="" id="inputN">
+          <button onclick="writeTask()"> enviar</button>
+          <button onclick="deleteTask()">apagar</button>
+          <p id="test"></p>
         </div>
         <div class="controls">
           
         </div>
-        <ul class="task-box">
-            <li>ola</li>
+        <ul class="task-box" id="taskBox">
+            <li id="child">Child</li>
+            
         </ul>
       </div>
 
